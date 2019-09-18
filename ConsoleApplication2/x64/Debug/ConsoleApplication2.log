@@ -1,0 +1,17 @@
+﻿  main.cpp
+  bc_net.cpp
+c:\users\lbz\documents\visual studio 2015\projects\8\bc_smart_car_prj\consoleapplication2\bc_net.cpp(131): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  bc_log.cpp
+  bc_car.cpp
+  正在生成代码...
+main.obj : error LNK2019: 无法解析的外部符号 __imp_TG_GetDriverVersion，该符号在函数 "void __cdecl bc_tg_init(void)" (?bc_tg_init@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_TG_GetNewConnectionId，该符号在函数 "void __cdecl bc_tg_init(void)" (?bc_tg_init@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_TG_SetStreamLog，该符号在函数 "void __cdecl bc_tg_init(void)" (?bc_tg_init@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_TG_SetDataLog，该符号在函数 "void __cdecl bc_tg_init(void)" (?bc_tg_init@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_TG_Connect，该符号在函数 "void __cdecl bc_tg_init(void)" (?bc_tg_init@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_TG_ReadPackets，该符号在函数 "void __cdecl bc_tg_filter_dat_pthread(void)" (?bc_tg_filter_dat_pthread@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_TG_GetValueStatus，该符号在函数 "void __cdecl bc_tg_filter_dat_pthread(void)" (?bc_tg_filter_dat_pthread@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_TG_GetValue，该符号在函数 "void __cdecl bc_tg_filter_dat_pthread(void)" (?bc_tg_filter_dat_pthread@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp_TG_FreeConnection，该符号在函数 "void __cdecl bc_tg_deinit(void)" (?bc_tg_deinit@@YAXXZ) 中被引用
+thinkgear.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+C:\Users\lbz\Documents\Visual Studio 2015\Projects\8\bc_smart_car_prj\x64\Debug\ConsoleApplication2.exe : fatal error LNK1120: 9 个无法解析的外部命令
